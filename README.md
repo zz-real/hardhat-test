@@ -11,3 +11,16 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+# dotenv
+
+Dotenv is a zero-dependency module that loads environment variables from a `.env` file into [`process.env`](https://nodejs.org/docs/latest/api/process.html#process_process_env). Storing configuration in the environment separate from code is based on [The Twelve-Factor App](http://12factor.net/config) methodology.
+
+## Install
+
+# install locally (recommended)
+npm install dotenv --save
+
+
+# 发布到goerli测试网络
+npx hardhat run scripts/deploy.js --network goerli
