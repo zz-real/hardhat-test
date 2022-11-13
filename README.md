@@ -24,3 +24,14 @@ npm install dotenv --save
 
 # 发布到goerli测试网络
 npx hardhat run scripts/deploy.js --network goerli
+
+
+# Solidity 实践，Hardhat使用教程
+
+Hardhat 英文文档： [https://hardhat.org/tutorial](https://hardhat.org/tutorial)  
+Hardhat 中文文档： [https://learnblockchain.cn/docs/hardhat/tutorial/](https://learnblockchain.cn/docs/hardhat/tutorial/)  
+Mocha： [https://mochajs.org/](https://mochajs.org/)  
+Etherjs： [https://docs.ethers.io/v5/](https://docs.ethers.io/v5/)  
+Alchemy： [https://dashboard.alchemy.com/](https://dashboard.alchemy.com/)  
+Goerli etherscan: [https://goerli.etherscan.io/](https://goerli.etherscan.io/)  
+Javascript 教程： [https://www.runoob.com/js/js-tutorial.html](https://www.runoob.com/js/js-tutorial.html)
